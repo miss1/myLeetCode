@@ -24,5 +24,6 @@ s="ababc"  astr=""  num=0
 
 5): c -> 不在astr中 -> astr="abc",num=3
 
+执行用时：104ms，内存消耗：39.6MB
 
 
