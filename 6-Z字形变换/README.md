@@ -21,3 +21,5 @@ Math.floor(index/(numRows-1))是奇数时，res下标递减。最后将res数组
 例：
 
 ![avatar](./example.png)
+
+执行用时：96ms，内存消耗：37.7MB
