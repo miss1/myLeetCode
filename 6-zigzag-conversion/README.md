@@ -23,3 +23,28 @@ Math.floor(index/(numRows-1))是奇数时，res下标递减。最后将res数组
 ![avatar](./example.png)
 
 执行用时：96ms，内存消耗：37.7MB
+
+____
+
+Subject: ZigZag Conversion
+
+The string "PAYPALISHIRING" is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)
+
+~~~~
+P   A   H   N
+A P L S I I G
+Y   I   R
+~~~~
+
+And then read line by line: "PAHNAPLSIIGYIR"
+
+Write the code that will take a string and make this conversion given a number of rows:
+~~~~
+string convert(string s, int numRows);
+~~~~
+
+Link: https://leetcode.com/problems/zigzag-conversion/
+
+Answer:
+
+Runtime: 128ms, Memory: 41.5MB

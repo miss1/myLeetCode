@@ -1,6 +1,7 @@
 题目：
 
 给定一个字符串 s，找到 s 中最长的回文子串。你可以假设 s 的最大长度为 1000。
+
 链接：https://leetcode-cn.com/problems/longest-palindromic-substring/
 
 题解：
@@ -20,6 +21,18 @@ index.js中实现，执行用时：272ms，内存消耗：51.3MB
 边界值下标间隔最长的一个记录，用来截取字符串，即是所求值。
 
 index2.js中实现，执行用时：84ms，内存消耗：36.6MB
+
+____
+
+Subject: Longest Palindromic Substring
+
+Given a string s, return the longest palindromic substring in s.
+
+Link: https://leetcode.com/problems/longest-palindromic-substring/
+
+Answer:
+
+Runtime: 144ms, Memory: 42.7MB
 
 
 
