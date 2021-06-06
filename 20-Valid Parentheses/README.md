@@ -15,5 +15,6 @@ Use stack,Iterate over the string,Compare characters and end of stack.
 If it matches, pop out of the stack, otherwise, push into the stack.
 Finally, determine whether the stack is empty
 
+Runtime: 92 ms, Memory: 39.8 MB
 
 
