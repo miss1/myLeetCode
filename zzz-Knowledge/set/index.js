@@ -28,4 +28,4 @@ for (let item of mySet.values()) console.log(item);
 for (let [key, value] of mySet.entries()) console.log(key, value);  // key === value
 // 转数组
 const myArr = [...mySet];
-const myArr2 = Array.from(mySet)
+const myArr2 = Array.from(mySet);
