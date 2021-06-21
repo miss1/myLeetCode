@@ -1,3 +1,5 @@
+// 字典
+
 const m = new Map();
 
 // 增
