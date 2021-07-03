@@ -3,6 +3,7 @@
  * @return {ListNode}
  */
 var detectCycle = function(head) {
+  // 快慢指针，获取到相遇节点
   let p1 = head;
   let p2 = head;
   let meetingNode = null;
@@ -14,9 +15,11 @@ var detectCycle = function(head) {
       break;
     }
   }
+  // 不能相遇，没有环
   if (meetingNode == null) {
     return null;
   }
+  // 在头部相遇
   if (head === meetingNode) {
     return head;
   }
